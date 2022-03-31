@@ -175,7 +175,7 @@ main {
 	box-shadow: inset 0px 0px 12px  black;
 
 	.project-section {
-		scale: 0.8;
+		scale: 0.95;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -263,21 +263,30 @@ main {
 		@media (max-width: 900px) {
 			.project-box {
 				grid-template-columns: 1fr 1fr;
+				width: 90%;
 				
 			}
 		}
 	
 		@media (max-width: 720px) {
+			.section-heading {
+				h1 {
+					font-size: 2.5rem;
+	
+				}
+			}
 			.project-box {
 				grid-template-columns: 1fr;
-				padding: 0rem;
+				padding-left: 0rem;
+				padding-right: 0rem;
+				width: 100%;
 			}
 		}
 	
 	}
 
 	.contributions-section {
-		scale: 0.8;
+		scale: 0.95;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -294,11 +303,16 @@ main {
 				border-radius: 64px;
 				width: 100%;
 			}
+
+			@media (max-width: 720px) {
+				h1 {
+					font-size: 2.0rem;
+
+				}
+			}
 			
 		}
 	}
-
-
 
 }
 

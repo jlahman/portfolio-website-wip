@@ -126,7 +126,7 @@ main {
   background: #222;
   box-shadow: inset 0px 0px 12px  black; }
   main .project-section {
-    scale: 0.8;
+    scale: 0.95;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,13 +188,18 @@ main {
             transition: all 0.333s ease-out; }
     @media (max-width: 900px) {
       main .project-section .project-box {
-        grid-template-columns: 1fr 1fr; } }
+        grid-template-columns: 1fr 1fr;
+        width: 90%; } }
     @media (max-width: 720px) {
+      main .project-section .section-heading h1 {
+        font-size: 2.5rem; }
       main .project-section .project-box {
         grid-template-columns: 1fr;
-        padding: 0rem; } }
+        padding-left: 0rem;
+        padding-right: 0rem;
+        width: 100%; } }
   main .contributions-section {
-    scale: 0.8;
+    scale: 0.95;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,3 +214,6 @@ main {
         padding: 1.0rem;
         border-radius: 64px;
         width: 100%; }
+      @media (max-width: 720px) {
+        main .contributions-section .section-heading h1 {
+          font-size: 2.0rem; } }
