@@ -205,8 +205,6 @@ main {
 			grid-template-columns: 1fr 1fr 1fr;
 	
 			.project-item {
-				//scale: 0.8;
-				//max-width: 360px;
 				border: solid white 2px;
 				border-radius: 8px;
 				display: flex;
@@ -215,7 +213,6 @@ main {
 				background: lighten($primary-color, 4);
 			
 				&:hover {
-					//scale: 1.05;
 					box-shadow: 0px 0px 5px $secondary-color;
 					border: solid $secondary-color 2px;
 					@include easeOut;
@@ -223,7 +220,6 @@ main {
 				img {
 					width: 100%;
 					max-height: 200px;
-					//max-width: 300px;
 					border-top-left-radius: 8px;
 					border-top-right-radius: 8px;
 				}
