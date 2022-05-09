@@ -34,6 +34,16 @@ a {
 	text-decoration: none;
 }
 
+.construction-banner {
+	background-color: black;
+	padding: 1rem;
+
+	p {
+		margin-bottom: 0;
+
+	}
+}
+
 header {
 	@include background;
 	padding: 2.5rem;
