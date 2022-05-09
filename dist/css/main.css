@@ -22,6 +22,12 @@ a {
   color: #FFF;
   text-decoration: none; }
 
+.construction-banner {
+  background-color: black;
+  padding: 1rem; }
+  .construction-banner p {
+    margin-bottom: 0; }
+
 header {
   padding: 2.5rem;
   z-index: 2;
