@@ -140,7 +140,8 @@ main {
         background-color: #2c2c2c;
         padding: 1.0rem;
         border-radius: 64px;
-        width: 100%; }
+        width: 100%;
+        box-shadow: 0px 0px 16px black; }
     main .project-section .project-box {
       width: 75%;
       padding: 4rem;
@@ -155,7 +156,8 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background: #2c2c2c; }
+        background: #2c2c2c;
+        box-shadow: 0px 0px 12px black; }
         main .project-section .project-box .project-item:hover {
           box-shadow: 0px 0px 5px #ffd728;
           border: solid #ffd728 2px;
@@ -213,7 +215,8 @@ main {
         background-color: #2c2c2c;
         padding: 1.0rem;
         border-radius: 64px;
-        width: 100%; }
+        width: 100%;
+        box-shadow: 0px 0px 16px black; }
       @media (max-width: 720px) {
         main .contributions-section .section-heading h1 {
           font-size: 2.0rem; } }
@@ -226,12 +229,15 @@ main {
         border: solid white 2px;
         border-radius: 8px;
         margin-top: 1.0rem;
-        background: #2c2c2c; }
+        margin-bottom: 1.5rem;
+        background: #2c2c2c;
+        box-shadow: 0px 0px 12px black; }
         main .contributions-section .contributions-container .contribution-item h2, main .contributions-section .contributions-container .contribution-item p {
           margin: 0.5rem; }
         main .contributions-section .contributions-container .contribution-item:hover {
           border: solid #ffd728 2px;
-          box-shadow: 0px 0px 5px #ffd728; }
+          box-shadow: 0px 0px 5px #ffd728;
+          transition: all 0.333s ease-out; }
         main .contributions-section .contributions-container .contribution-item .links-fb {
           display: flex;
           flex-direction: row;
@@ -245,8 +251,9 @@ main {
             color: black; }
             main .contributions-section .contributions-container .contribution-item .links-fb .link:hover {
               color: #ffd728;
-              background-color: black; }
+              background-color: black;
+              transition: all 0.333s ease-out; }
           main .contributions-section .contributions-container .contribution-item .links-fb .link:first-of-type {
-            border-bottom-left-radius: 5px; }
+            border-bottom-left-radius: 6px; }
           main .contributions-section .contributions-container .contribution-item .links-fb .link:last-of-type {
-            border-bottom-right-radius: 5px; }
+            border-bottom-right-radius: 6px; }
