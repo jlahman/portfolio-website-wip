@@ -191,6 +191,7 @@ main {
 				padding: 1.0rem;
 				border-radius: 64px;
 				width: 100%;
+				box-shadow: 0px 0px 16px black;
 			}
 			
 		}
@@ -211,6 +212,7 @@ main {
 				flex-direction: column;
 				justify-content: space-between;
 				background: lighten($primary-color, 4);
+				box-shadow: 0px 0px 12px black;
 			
 				&:hover {
 					box-shadow: 0px 0px 5px $secondary-color;
@@ -291,6 +293,7 @@ main {
 		.section-heading {
 			width: 75%;
 			padding-bottom: 0.5rem;
+
 			h1 {
 				font-size: 3.5rem;
 				text-align: center;
@@ -298,6 +301,7 @@ main {
 				padding: 1.0rem;
 				border-radius: 64px;
 				width: 100%;
+				box-shadow: 0px 0px 16px black;
 			}
 
 			@media (max-width: 720px) {
@@ -319,7 +323,9 @@ main {
 				border: solid white 2px;
 				border-radius: 8px;
 				margin-top: 1.0rem;
+				margin-bottom: 1.5rem;
 				background: lighten($primary-color, 4);
+				box-shadow: 0px 0px 12px black;
 				
 				h2, p {
 					margin: 0.5rem;
@@ -328,6 +334,7 @@ main {
 				&:hover {
 					border: solid $secondary-color 2px;
 					box-shadow: 0px 0px 5px $secondary-color;
+					@include easeOut;
 				}
 
 				.links-fb {
@@ -347,15 +354,16 @@ main {
 						&:hover {
 							color: $secondary-color;
 							background-color: black;
+							@include easeOut;
 						}
 					}
 
 					.link:first-of-type {
-						border-bottom-left-radius: 5px;
+						border-bottom-left-radius: 6px;
 
 					}
 					.link:last-of-type {
-						border-bottom-right-radius: 5px;
+						border-bottom-right-radius: 6px;
 
 					}
 
